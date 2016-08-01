@@ -1,0 +1,17 @@
+
+Creating FlashPro Express Job Project...
+Software Version: 11.7.0.119
+creating folder: /home/cyril/CoreRV32IM/Libero/M2S090/git-staging/bitstreams/RISCV_BaseDesign_M2S090-bitstream_io-jtag
+programmer 'S200XTY0G2' : FlashPro5
+Created new project '/home/cyril/CoreRV32IM/Libero/M2S090/git-staging/bitstreams/RISCV_BaseDesign_M2S090-bitstream_io-jtag/RISCV_BaseDesign_M2S090-bitstream_io-jtag.pro'
+STAPL file '/home/cyril/CoreRV32IM/Libero/M2S090/git-staging/bitstreams/RISCV_BaseDesign_M2S090-bitstream_io-jtag/M2S090TS_1.stp' has been loaded successfully.
+DESIGN : RISCV_BaseDesign;  CHECKSUM : 0BBF;  ALG_VERSION : 2
+creating folder: /home/cyril/CoreRV32IM/Libero/M2S090/git-staging/bitstreams/RISCV_BaseDesign_M2S090-bitstream_io-jtag/projectData
+Software Version: 11.7.0.119
+STAPL file '/home/cyril/CoreRV32IM/Libero/M2S090/git-staging/bitstreams/RISCV_BaseDesign_M2S090-bitstream_io-jtag/M2S090TS_1.stp' has been loaded successfully.
+DESIGN : RISCV_BaseDesign;  CHECKSUM : 0BBF;  ALG_VERSION : 2
+programmer 'S200XTY0G2' : FlashPro5
+
+Created FlashPro Express Job Project.
+Project saved.
+Project closed.
