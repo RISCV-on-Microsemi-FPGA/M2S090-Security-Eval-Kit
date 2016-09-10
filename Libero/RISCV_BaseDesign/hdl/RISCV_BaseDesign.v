@@ -182,6 +182,7 @@ module RISCV_BaseDesign (
    wire  asyncTRSTB;
    wire  clk;
    wire  core_DRV_TDO;
+   wire  icore_TCK;
    wire  core_TCK;
    wire  core_TDI;
    wire  core_TDO;
@@ -728,7 +729,7 @@ module RISCV_BaseDesign (
                      
                      // JTAG port (to DUT)
                      .dutntrst (core_TRSTB),
-                     .duttck   (core_TCK), 
+                     .duttck   (icore_TCK), 
                      .duttms   (core_TMS), 
                      .duttdi   (core_TDI),
                      .duttdo   (core_TDO),
@@ -737,6 +738,9 @@ module RISCV_BaseDesign (
                      .gpout(),
                      .gpin(4'b0)
                      );          
+                     
+    CLKINT coretck_clkint(.A(icore_TCK), .Y(core_TCK));
+    
 //    @Unparsed end;
 
 `else // !`ifdef USE_UJTAG

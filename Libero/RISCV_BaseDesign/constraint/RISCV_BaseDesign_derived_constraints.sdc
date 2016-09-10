@@ -1,11 +1,11 @@
 # Microsemi Corp.
-# Date: 2016-Jul-31 20:43:04
+# Date: 2016-Sep-03 15:54:11
 # This file was generated based on the following SDC source files:
-#   /home/cyril/CoreRV32IM/Libero/M2S090/RISCV_BaseDesign/component/work/MSS_SUBSYSTEM_sb/CCC_0/MSS_SUBSYSTEM_sb_CCC_0_FCCC.sdc
+#   /scratch/sandbox/M2S090-Security-Eval-Kit/Libero/RISCV_BaseDesign/component/work/MSS_SUBSYSTEM_sb/CCC_0/MSS_SUBSYSTEM_sb_CCC_0_FCCC.sdc
 #   /usr/local/microsemi/Libero_v11.7/Libero/data/aPA4M/cores/constraints/PA4M7500/coreconfigp.sdc
 #   /usr/local/microsemi/Libero_v11.7/Libero/data/aPA4M/cores/constraints/coreresetp.sdc
-#   /home/cyril/CoreRV32IM/Libero/M2S090/RISCV_BaseDesign/component/work/MSS_SUBSYSTEM_sb/FABOSC_0/MSS_SUBSYSTEM_sb_FABOSC_0_OSC.sdc
-#   /home/cyril/CoreRV32IM/Libero/M2S090/RISCV_BaseDesign/component/work/MSS_SUBSYSTEM_sb_MSS/MSS_SUBSYSTEM_sb_MSS.sdc
+#   /scratch/sandbox/M2S090-Security-Eval-Kit/Libero/RISCV_BaseDesign/component/work/MSS_SUBSYSTEM_sb/FABOSC_0/MSS_SUBSYSTEM_sb_FABOSC_0_OSC.sdc
+#   /scratch/sandbox/M2S090-Security-Eval-Kit/Libero/RISCV_BaseDesign/component/work/MSS_SUBSYSTEM_sb_MSS/MSS_SUBSYSTEM_sb_MSS.sdc
 #
 
 create_clock -name {CLK0_PAD} -period 20 [ get_ports { CLK0_PAD } ]
