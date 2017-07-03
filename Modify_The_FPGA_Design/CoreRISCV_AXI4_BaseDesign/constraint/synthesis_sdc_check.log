@@ -1,5 +1,0 @@
-Error: SDC0059: /home/user/CoreRISCV_AXI4/M2S090-Security-Eval-Kit-master/Libero/CoreRISCV_AXI4_BaseDesign/constraint/RISCV_BaseDesign_derived_constraints.sdc:23: invalid command name "gets_ports"
-    while executing
-"gets_ports { TCK } "
-    invoked from within
-"create_clock -name {TCK} -period {$TCK_PERIOD} [gets_ports { TCK } ]"
