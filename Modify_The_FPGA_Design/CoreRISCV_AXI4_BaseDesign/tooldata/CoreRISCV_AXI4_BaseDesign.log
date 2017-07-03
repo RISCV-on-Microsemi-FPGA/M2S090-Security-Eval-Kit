@@ -1,0 +1,16 @@
+Project Name: CoreRISCV_AXI4_BaseDesign
+Location: C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S090_Security_Evaluation_Kit\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S090-FG484
+Family         : SmartFusion2
+Die            : M2S090
+Package        : 484 FBGA
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM
