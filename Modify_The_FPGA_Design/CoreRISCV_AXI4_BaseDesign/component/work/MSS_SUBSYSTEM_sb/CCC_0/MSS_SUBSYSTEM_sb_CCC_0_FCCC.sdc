@@ -1,6 +1,6 @@
 set_component MSS_SUBSYSTEM_sb_CCC_0_FCCC
 # Microsemi Corp.
-# Date: 2017-Jun-12 11:04:58
+# Date: 2017-Jun-15 09:56:52
 #
 
 create_clock -period 20 [ get_pins { CCC_INST/CLK0_PAD } ]

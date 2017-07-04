@@ -1,6 +1,6 @@
 <project name="PROC_SUBSYSTEM_BaseDesign" version="1.1">
     <ProjectDirectory>
-        C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S090_Security_Evaluation_Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign
+        C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S090_Security_Evaluation_Kit\Programming_The_Target_Device\BASE\PROC_SUBSYSTEM_BaseDesign
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,11 +9,19 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S090_Security_Evaluation_Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.log
+        C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S090_Security_Evaluation_Kit\Programming_The_Target_Device\BASE\PROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.log
     </LogFile>
     <SerializationOption>
         Skip
     </SerializationOption>
+    <programmer status="disable" type="FlashPro5" revision="UndefRev" connection="usb2.0">
+        <name>
+            E200UTVUY
+        </name>
+        <id>
+            E200UTVUY
+        </id>
+    </programmer>
     <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb2.0">
         <name>
             S201Z6SSZF
@@ -81,7 +89,7 @@
             </Custom>
             <Algo type="STAPL">
                 <filename>
-                    C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S090_Security_Evaluation_Kit\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\M2S090_1.stp
+                    C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S090_Security_Evaluation_Kit\Programming_The_Target_Device\BASE\PROC_SUBSYSTEM_BaseDesign\M2S090_1.stp
                 </filename>
                 <local>
                     projectData\M2S090_1.stp

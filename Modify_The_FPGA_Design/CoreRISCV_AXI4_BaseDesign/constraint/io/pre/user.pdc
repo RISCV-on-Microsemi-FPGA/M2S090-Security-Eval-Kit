@@ -2,11 +2,11 @@
 
 # User I/O Constraints file 
 
-# Version: v11.7 SP3 11.7.3.7
+# Version: v11.8 11.8.0.26
 
-# Family: SmartFusion2 , Die: M2S090TS , Package: 484 FBGA
+# Family: SmartFusion2 , Die: M2S090 , Package: 484 FBGA
 
-# Date generated: Fri Mar 24 16:09:58 2017 
+# Date generated: Fri Jun 23 14:37:16 2017 
 
 
 # 
@@ -131,6 +131,30 @@ set_io RX             \
     -pinname G18      \
     -fixed yes        \
     -DIRECTION INPUT
+
+
+set_io SPISCLKO        \
+    -pinname N19       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SPISDI         \
+    -pinname N20      \
+    -fixed yes        \
+    -DIRECTION INPUT
+
+
+set_io SPISDO          \
+    -pinname N21       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
+
+
+set_io SPISS           \
+    -pinname N22       \
+    -fixed yes         \
+    -DIRECTION OUTPUT
 
 
 set_io TX              \

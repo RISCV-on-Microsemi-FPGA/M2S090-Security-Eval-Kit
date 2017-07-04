@@ -1,11 +1,11 @@
 # Microsemi Corp.
-# Date: 2017-Jun-12 09:57:58
+# Date: 2017-Jun-23 14:37:43
 # This file was generated based on the following SDC source files:
-#   C:/Users/ciaran.lappin/Desktop/RISCV_UPDATE/M2S090/11_8/Libero/CoreRISCV_AXI4_BaseDesign/component/work/MSS_SUBSYSTEM_sb/CCC_0/MSS_SUBSYSTEM_sb_CCC_0_FCCC.sdc
+#   C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/work/MSS_SUBSYSTEM_sb/CCC_0/MSS_SUBSYSTEM_sb_CCC_0_FCCC.sdc
 #   C:/Microsemi/Libero_SoC_v11.8/Designer/data/aPA4M/cores/constraints/PA4M7500/coreconfigp.sdc
 #   C:/Microsemi/Libero_SoC_v11.8/Designer/data/aPA4M/cores/constraints/coreresetp.sdc
-#   C:/Users/ciaran.lappin/Desktop/RISCV_UPDATE/M2S090/11_8/Libero/CoreRISCV_AXI4_BaseDesign/component/work/MSS_SUBSYSTEM_sb/FABOSC_0/MSS_SUBSYSTEM_sb_FABOSC_0_OSC.sdc
-#   C:/Users/ciaran.lappin/Desktop/RISCV_UPDATE/M2S090/11_8/Libero/CoreRISCV_AXI4_BaseDesign/component/work/MSS_SUBSYSTEM_sb_MSS/MSS_SUBSYSTEM_sb_MSS.sdc
+#   C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/work/MSS_SUBSYSTEM_sb/FABOSC_0/MSS_SUBSYSTEM_sb_FABOSC_0_OSC.sdc
+#   C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/work/MSS_SUBSYSTEM_sb_MSS/MSS_SUBSYSTEM_sb_MSS.sdc
 #
 
 create_clock -name {CLK0_PAD} -period 20 [ get_ports { CLK0_PAD } ]

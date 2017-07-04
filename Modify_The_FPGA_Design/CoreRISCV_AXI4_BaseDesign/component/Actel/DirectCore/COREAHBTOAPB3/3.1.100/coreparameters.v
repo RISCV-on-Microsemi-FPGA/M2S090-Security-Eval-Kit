@@ -1,5 +1,5 @@
 //--------------------------------------------------------------------
-// Created by Microsemi SmartDesign Mon Jun 12 11:05:31 2017
+// Created by Microsemi SmartDesign Fri Jun 23 14:30:12 2017
 // Parameters for COREAHBTOAPB3
 //--------------------------------------------------------------------
 

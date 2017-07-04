@@ -1,6 +1,6 @@
 Microsemi Corporation - Microsemi Libero Software Release v11.8 (Version 11.8.0.26)
 
-Date      :  Mon Jun 12 11:05:46 2017
+Date      :  Fri Jun 23 14:30:35 2017
 Project   :  C:\Users\ciaran.lappin\Desktop\Github\SF2_M2S090_Security_Evaluation_Kit\Modify_The_FPGA_Design\CoreRISCV_AXI4_BaseDesign
 Component :  PROC_SUBSYSTEM
 Family    :  SmartFusion2
@@ -22,6 +22,13 @@ HDL source files for all Synthesis and Simulation tools:
     C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREAXITOAHBL/3.0.101/rtl/vlog/core/CoreAXItoAHBL_synchronizer.v
     C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/2.0.100/rtl/vlog/core/corejtagdebug.v
     C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/COREJTAGDEBUG/2.0.100/rtl/vlog/core/corejtagdebug_uj_jtag.v
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORESPI/5.1.104/rtl/vlog/core/corespi.v
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORESPI/5.1.104/rtl/vlog/core/spi.v
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORESPI/5.1.104/rtl/vlog/core/spi_chanctrl.v
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORESPI/5.1.104/rtl/vlog/core/spi_clockmux.v
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORESPI/5.1.104/rtl/vlog/core/spi_control.v
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORESPI/5.1.104/rtl/vlog/core/spi_fifo.v
+    C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CORESPI/5.1.104/rtl/vlog/core/spi_rf.v
     C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite.v
     C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_addrdec.v
     C:/Users/ciaran.lappin/Desktop/Github/SF2_M2S090_Security_Evaluation_Kit/Modify_The_FPGA_Design/CoreRISCV_AXI4_BaseDesign/component/Actel/DirectCore/CoreAHBLite/5.2.100/rtl/vlog/core/coreahblite_defaultslavesm.v
