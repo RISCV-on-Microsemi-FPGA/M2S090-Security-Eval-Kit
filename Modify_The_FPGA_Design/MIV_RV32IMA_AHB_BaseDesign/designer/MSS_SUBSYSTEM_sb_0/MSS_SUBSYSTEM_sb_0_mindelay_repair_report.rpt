@@ -1,0 +1,518 @@
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 1  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 1  
+ Total paths eligible for improvement: 26      
+ Total paths improved: 26      
+-------------------------
+
+Path 1
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[8]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[8]
+------------------------
+Path min-delay slack:      -597 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_281:B
+-------------------------------------
+  Pin max-delay slack:    48304 ps
+  Min-delay inserted:       714 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_281_CFG1D_TEST
+
+
+Path 2
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[12]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[12]
+------------------------
+Path min-delay slack:      -581 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_285:B
+-------------------------------------
+  Pin max-delay slack:    48267 ps
+  Min-delay inserted:       791 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_285_CFG1A_TEST
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_285_CFG1D_TEST
+
+
+Path 3
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[2]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[2]
+------------------------
+Path min-delay slack:      -510 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_278:A
+-------------------------------------
+  Pin max-delay slack:    48178 ps
+  Min-delay inserted:       572 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_278_CFG1D_TEST
+
+
+Path 4
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[5]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[5]
+------------------------
+Path min-delay slack:      -503 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_282:A
+-------------------------------------
+  Pin max-delay slack:    46946 ps
+  Min-delay inserted:       643 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_282_CFG1D_TEST
+
+
+Path 5
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[6]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[6]
+------------------------
+Path min-delay slack:      -498 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_283:A
+-------------------------------------
+  Pin max-delay slack:    46924 ps
+  Min-delay inserted:       657 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_283_CFG1D_TEST
+
+
+Path 6
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[7]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[7]
+------------------------
+Path min-delay slack:      -498 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_280:B
+-------------------------------------
+  Pin max-delay slack:    48066 ps
+  Min-delay inserted:       602 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_280_CFG1D_TEST
+
+
+Path 7
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[4]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[4]
+------------------------
+Path min-delay slack:      -497 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_277:B
+-------------------------------------
+  Pin max-delay slack:    48291 ps
+  Min-delay inserted:       626 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_277_CFG1D_TEST0
+
+
+Path 8
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[15]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[15]
+------------------------
+Path min-delay slack:      -493 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_276:C
+-------------------------------------
+  Pin max-delay slack:    48479 ps
+  Min-delay inserted:       687 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_276_CFG1D_TEST0
+
+
+Path 9
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[3]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[3]
+------------------------
+Path min-delay slack:      -473 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_276:B
+-------------------------------------
+  Pin max-delay slack:    48216 ps
+  Min-delay inserted:       626 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_276_CFG1D_TEST1
+
+
+Path 10
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[3]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[3]
+------------------------
+Path min-delay slack:      -467 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_280:A
+-------------------------------------
+  Pin max-delay slack:    46671 ps
+  Min-delay inserted:       624 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_280_CFG1D_TEST0
+
+
+Path 11
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[4]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[4]
+------------------------
+Path min-delay slack:      -465 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_281:A
+-------------------------------------
+  Pin max-delay slack:    46478 ps
+  Min-delay inserted:       589 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_281_CFG1C_TEST
+
+
+Path 12
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[11]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[11]
+------------------------
+Path min-delay slack:      -460 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_284:B
+-------------------------------------
+  Pin max-delay slack:    48106 ps
+  Min-delay inserted:       648 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_284_CFG1D_TEST
+
+
+Path 13
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[7]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[7]
+------------------------
+Path min-delay slack:      -459 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_284:A
+-------------------------------------
+  Pin max-delay slack:    46901 ps
+  Min-delay inserted:       616 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_284_CFG1C_TEST
+
+
+Path 14
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[2]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[2]
+------------------------
+Path min-delay slack:      -453 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_279:A
+-------------------------------------
+  Pin max-delay slack:    46560 ps
+  Min-delay inserted:       638 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_279_CFG1D_TEST0
+
+
+Path 15
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[10]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[10]
+------------------------
+Path min-delay slack:      -442 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_283:B
+-------------------------------------
+  Pin max-delay slack:    48412 ps
+  Min-delay inserted:       606 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_283_CFG1C_TEST
+
+
+Path 16
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[9]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[9]
+------------------------
+Path min-delay slack:      -428 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_282:B
+-------------------------------------
+  Pin max-delay slack:    48431 ps
+  Min-delay inserted:       552 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_282_CFG1C_TEST
+
+
+Path 17
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[6]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[6]
+------------------------
+Path min-delay slack:      -381 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_279:B
+-------------------------------------
+  Pin max-delay slack:    47857 ps
+  Min-delay inserted:       670 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_279_CFG1D_TEST
+
+
+Path 18
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[8]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[8]
+------------------------
+Path min-delay slack:      -378 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_285:A
+-------------------------------------
+  Pin max-delay slack:    46773 ps
+  Min-delay inserted:       705 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_285_CFG1D_TEST0
+
+
+Path 19
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[14]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[14]
+------------------------
+Path min-delay slack:      -373 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_287:B
+-------------------------------------
+  Pin max-delay slack:    48410 ps
+  Min-delay inserted:       742 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_287_CFG1D_TEST
+
+
+Path 20
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[1]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[1]
+------------------------
+Path min-delay slack:      -371 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_277:A
+-------------------------------------
+  Pin max-delay slack:    47960 ps
+  Min-delay inserted:       750 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_277_CFG1A_TEST
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_277_CFG1D_TEST
+
+
+Path 21
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[0]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[0]
+------------------------
+Path min-delay slack:      -316 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_276:A
+-------------------------------------
+  Pin max-delay slack:    47364 ps
+  Min-delay inserted:       734 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_276_CFG1A_TEST
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_276_CFG1D_TEST
+
+
+Path 22
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[13]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[13]
+------------------------
+Path min-delay slack:      -311 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_286:B
+-------------------------------------
+  Pin max-delay slack:    48318 ps
+  Min-delay inserted:       624 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_286_CFG1D_TEST
+
+
+Path 23
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[9]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[9]
+------------------------
+Path min-delay slack:      -269 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_286:A
+-------------------------------------
+  Pin max-delay slack:    46979 ps
+  Min-delay inserted:       589 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_286_CFG1C_TEST
+
+
+Path 24
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwrite:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWRITE
+------------------------
+Path min-delay slack:      -223 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_265:C
+-------------------------------------
+  Pin max-delay slack:    47062 ps
+  Min-delay inserted:       586 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_265_CFG1C_TEST
+
+
+Path 25
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[5]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[5]
+------------------------
+Path min-delay slack:      -217 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_278:B
+-------------------------------------
+  Pin max-delay slack:    47808 ps
+  Min-delay inserted:       538 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_278_CFG1C_TEST
+
+
+Path 26
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[10]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[10]
+------------------------
+Path min-delay slack:      -208 ps
+------------------------
+  On sink pin: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_287:A
+-------------------------------------
+  Pin max-delay slack:    46776 ps
+  Min-delay inserted:       510 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_287_CFG1C_TEST
+
+
+
+
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 2  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 2  
+ Total paths eligible for improvement: 2       
+ Total paths improved: 2       
+-------------------------
+
+Path 1
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/paddr[7]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PADDR[7]
+------------------------
+Path min-delay slack:       -51 ps
+------------------------
+  On sink pin: mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_284_CFG1C_TEST:A
+-------------------------------------
+  Pin max-delay slack:    46172 ps
+  Min-delay inserted:       397 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_284_CFG1C_TEST_CFG1C_TEST
+
+
+Path 2
+------------------------
+From: MSS_SUBSYSTEM_sb_0_sb_0/CORECONFIGP_0/pwdata[9]:CLK
+  To: MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_075_IP:MDDR_FABRIC_PWDATA[9]
+------------------------
+Path min-delay slack:        -9 ps
+------------------------
+  On sink pin: mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_282_CFG1C_TEST:A
+-------------------------------------
+  Pin max-delay slack:    47684 ps
+  Min-delay inserted:       310 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_mdr_MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST/IP_INTERFACE_282_CFG1C_TEST_CFG1C_TEST
+
+
+
+
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 3  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 3  
+ Total paths eligible for improvement: 0       
+ Total paths improved: 0       
+-------------------------
+
+
+Note:
+    [1]: A net cannot be modified for repair if:
+         - it is hardwired, preserved, or global;
+         - the sink pin is a clock pin;
+         - the sink pin has negative max-delay slack allowance;
+         - the sink and driving pins are placed in the same cluster.
+
+    [2]: A location is not feasible for inserting a delay buffer if the estimated minimum delay to be inserted might exceed the max-delay slack allowance of the sink pin.
+
+
+

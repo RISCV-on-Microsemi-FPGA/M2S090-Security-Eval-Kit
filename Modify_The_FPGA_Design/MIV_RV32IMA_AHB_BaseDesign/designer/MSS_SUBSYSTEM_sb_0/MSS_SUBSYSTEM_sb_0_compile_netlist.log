@@ -1,0 +1,37 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       11 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     10 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    5450   0      0      'MSS_SUBSYSTEM_sb_0_sb_0/CCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    294    0      0      'COREJTAGDEBUG_0/tck_clkint' 
+    75     0      0      'MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/MSS_ADLIB_INST_RNI7PU9' 
+    22     0      0      'MSS_SUBSYSTEM_sb_0_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    16     0      1      'COREJTAGDEBUG_0/genblk1.udrck_clkint' 
+    0      844    971    'MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/INIT_DONE_int_RNIH7UA' 
+    0      77     0      'MSS_SUBSYSTEM_sb_0_sb_0/MSS_SUBSYSTEM_sb_0_sb_MSS_0/FIC_2_APB_M_PRESET_N_keep_RNI0L51' 
+    0      33     3      'MIV_RV32IMA_L1_AHB_0/ChiselTop0/dmiResetCatch/reset_n_catch_reg/reg_0/q_RNII25E' 
+    0      26     0      'MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNI1AK' 
+    0      23     0      'COREJTAGDEBUG_0/genblk1.UJTAG_0_RNIFG38' 
+    0      17     0      'MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNI7HS9' 
+
+Info: Demotion information: 
+      Disconnected 1 data pins from global 'COREJTAGDEBUG_0/genblk1.udrck_clkint'. 
+      Disconnected 971 data pins from global 'MSS_SUBSYSTEM_sb_0_sb_0/CORERESETP_0/INIT_DONE_int_RNIH7UA'. 
+      Disconnected 3 data pins from global 'MIV_RV32IMA_L1_AHB_0/ChiselTop0/dmiResetCatch/reset_n_catch_reg/reg_0/q_RNII25E'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
