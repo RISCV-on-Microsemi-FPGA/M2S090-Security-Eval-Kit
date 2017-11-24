@@ -1,0 +1,16 @@
+Software Version: 11.8.2.4
+Opened 'C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\Modify_The_FPGA_Design\CoreMIV\designer\PROC_SUBSYSTEM\PROC_SUBSYSTEM_fp\PROC_SUBSYSTEM.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\Modify_The_FPGA_Design\CoreMIV\designer\PROC_SUBSYSTEM\cbe1987c-1769-40da-9769-80da176980da.pdb' has been loaded successfully.
+DESIGN : PROC_SUBSYSTEM;  CHECKSUM : 0000;  PDB_VERSION : 1.9
+The 'load_programming_data' command succeeded.
+Successfully exported STAPL file: 'C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S090-Creative-Board\Programming_The_Target_Design\PROC_SUBSYSTEM_BaseDesign_M2S090.stp'; file programs Fabric and eNVM.
+Fabric component digest: c25b9f46237beb02e6fbbf4181422142b19aa9d5192c76111b892539cde6019e
+eNVM_0 component digest: fc901ea89f5a143808a713783c162b8234d103eba3ebabafeb073750ac61ebe5
+Finished: Mon Nov 20 10:52:13 2017 (Elapsed time 00:00:43)
+
+The 'export_single_stapl' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

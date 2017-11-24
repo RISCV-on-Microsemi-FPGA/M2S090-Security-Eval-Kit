@@ -1,0 +1,4 @@
+Warning: SDC0061: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\constraint\user.sdc:5: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0061: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\constraint\user.sdc:6: Exception constraints using get_clocks command is not supported by placer; Please use get_pins instead 
+Warning: SDC0062: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\constraint\MSS_SUBSYSTEM_sb_0_derived_constraints.sdc:23: Exception constraints using get_nets command is not supported by placer; Please use get_pins instead 
+Warning: SDC0062: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\constraint\MSS_SUBSYSTEM_sb_0_derived_constraints.sdc:24: Exception constraints using get_nets command is not supported by placer; Please use get_pins instead 
