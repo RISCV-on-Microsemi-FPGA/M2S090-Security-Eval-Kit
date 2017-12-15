@@ -1,0 +1,2 @@
+Warning: SDC0062: C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\constraint\PROC_SUBSYSTEM_derived_constraints.sdc:23: Exception constraints using get_nets command is not supported by placer; Please use get_pins instead 
+Warning: SDC0062: C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\constraint\PROC_SUBSYSTEM_derived_constraints.sdc:24: Exception constraints using get_nets command is not supported by placer; Please use get_pins instead 

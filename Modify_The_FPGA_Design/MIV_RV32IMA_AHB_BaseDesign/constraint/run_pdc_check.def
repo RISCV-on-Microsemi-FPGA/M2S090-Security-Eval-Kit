@@ -1,0 +1,7 @@
+DESIGN=PROC_SUBSYSTEM
+DESDIR=C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM
+TARGET_DIR=C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\designer\PROC_SUBSYSTEM
+FAM=SmartFusion2
+DIE=PA4M7500_N
+PACKAGE=fg484
+PDC_FILE=C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\constraint\io\user.pdc,,C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign\constraint\fp\PROC_SUBSYSTEM_derived_constraints.pdc,,
