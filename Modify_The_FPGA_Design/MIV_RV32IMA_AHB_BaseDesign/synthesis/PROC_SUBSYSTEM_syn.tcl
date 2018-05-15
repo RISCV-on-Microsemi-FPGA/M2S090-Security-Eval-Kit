@@ -1,3 +1,3 @@
-project -load "C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/Modify_The_FPGA_Design/CoreMIV/synthesis/PROC_SUBSYSTEM_syn.prj"
+project -load "C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/synthesis/PROC_SUBSYSTEM_syn.prj"
 project -run
 project -save

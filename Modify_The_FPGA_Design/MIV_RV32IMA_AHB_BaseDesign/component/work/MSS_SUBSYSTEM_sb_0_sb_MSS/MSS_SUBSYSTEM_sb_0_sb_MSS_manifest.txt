@@ -1,37 +1,37 @@
 Microsemi Corporation - Microsemi Libero Software Release v11.8 SP2 (Version 11.8.2.4)
 
-Date      :  Thu Nov 16 10:17:40 2017
-Project   :  C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090
+Date      :  Mon Dec 11 15:27:40 2017
+Project   :  C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Modify_The_FPGA_Design\MIV_RV32IMA_AHB_BaseDesign
 Component :  MSS_SUBSYSTEM_sb_0_sb_MSS
 Family    :  SmartFusion2
 
 
 HDL source files for all Synthesis and Simulation tools:
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MSS_SUBSYSTEM_sb_0_sb_MSS.v
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MSS_SUBSYSTEM_sb_0_sb_MSS.v
 
 HDL source files for Synopsys SynplifyPro Synthesis tool:
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MSS_SUBSYSTEM_sb_0_sb_MSS_syn.v
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MSS_SUBSYSTEM_sb_0_sb_MSS_syn.v
 
 HDL source files for Mentor Precision Synthesis tool:
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MSS_SUBSYSTEM_sb_0_sb_MSS_pre.v
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MSS_SUBSYSTEM_sb_0_sb_MSS_pre.v
 
 Stimulus files for all Simulation tools:
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/CM3_compile_bfm.tcl
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/test.bfm
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/user.bfm
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/CM3_compile_bfm.tcl
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/test.bfm
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/user.bfm
 
 Firmware files for all Software IDE tools:
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/sys_config_mddr_define.h
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/sys_config_mss_clocks.h
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/sys_config_mddr_define.h
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/sys_config_mss_clocks.h
 
 Configuration files to be used for Programming:
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/ENVM.cfg
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/ENVM.cfg
 
 Configuration files to be used for all Simulation tools:
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/ENVM.cfg
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MDDR_init.bfm
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/ENVM.cfg
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MDDR_init.bfm
 
 Configuration files to be used for Power Analysis:
-    C:/Users/hbreslin/Desktop/Project Workspace/My projects/M2S090/M2S090/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MDDR_init.reg
+    C:/Users/hbreslin/Desktop/M2S090-Security-Eval-Kit-master/Modify_The_FPGA_Design/MIV_RV32IMA_AHB_BaseDesign/component/work/MSS_SUBSYSTEM_sb_0_sb_MSS/MDDR_init.reg
 

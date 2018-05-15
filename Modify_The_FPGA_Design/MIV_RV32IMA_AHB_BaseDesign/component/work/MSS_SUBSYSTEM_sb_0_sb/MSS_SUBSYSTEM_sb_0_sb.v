@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Thu Nov 16 10:17:45 2017
+// Created by SmartDesign Mon Dec 11 15:27:45 2017
 // Version: v11.8 SP2 11.8.2.4
 //////////////////////////////////////////////////////////////////////
 
@@ -166,6 +166,7 @@ wire          CORERESETP_0_RESET_N_F2M;
 wire          DDR_READY_net_0;
 wire          DEVRST_N;
 wire          FAB_CCC_GL1_net_0;
+wire          FAB_CCC_LOCK_net_0;
 wire          FAB_RESET_N;
 wire          FABOSC_0_RCOSC_25_50MHZ_O2F;
 wire   [31:0] FIC_0_AHB_MASTER_2_HADDR;
@@ -218,7 +219,6 @@ wire          MDDR_RAS_N_net_0;
 wire          MDDR_RESET_N_net_0;
 wire          MDDR_WE_N_net_0;
 wire          MSS_DDR_FIC_SUBSYSTEM_CLK_net_0;
-wire          MSS_DDR_FIC_SUBSYSTEM_LOCK_net_0;
 wire   [15:0] MSS_INT_F2M;
 wire          MSS_READY_net_0;
 wire          MSS_SUBSYSTEM_sb_0_sb_MSS_TMP_0_FIC_2_APB_M_PCLK;
@@ -247,12 +247,12 @@ wire   [2:0]  MDDR_BA_net_1;
 wire          POWER_ON_RESET_N_net_1;
 wire          INIT_DONE_net_1;
 wire          MSS_DDR_FIC_SUBSYSTEM_CLK_net_1;
-wire          MSS_DDR_FIC_SUBSYSTEM_LOCK_net_1;
+wire          FAB_CCC_LOCK_net_1;
 wire          FIC_0_CLK_net_1;
-wire          MSS_DDR_FIC_SUBSYSTEM_LOCK_net_2;
+wire          FAB_CCC_LOCK_net_2;
 wire          DDR_READY_net_1;
 wire          FAB_CCC_GL1_net_1;
-wire          MSS_DDR_FIC_SUBSYSTEM_LOCK_net_3;
+wire          FAB_CCC_LOCK_net_3;
 wire          MSS_READY_net_1;
 wire   [31:0] MDDR_DDR_AMBA_SLAVE_HRDATA_net_0;
 wire          MDDR_DDR_AMBA_SLAVE_HREADYOUT_net_0;
@@ -347,18 +347,18 @@ assign INIT_DONE_net_1                     = INIT_DONE_net_0;
 assign INIT_DONE                           = INIT_DONE_net_1;
 assign MSS_DDR_FIC_SUBSYSTEM_CLK_net_1     = MSS_DDR_FIC_SUBSYSTEM_CLK_net_0;
 assign MSS_DDR_FIC_SUBSYSTEM_CLK           = MSS_DDR_FIC_SUBSYSTEM_CLK_net_1;
-assign MSS_DDR_FIC_SUBSYSTEM_LOCK_net_1    = MSS_DDR_FIC_SUBSYSTEM_LOCK_net_0;
-assign MSS_DDR_FIC_SUBSYSTEM_LOCK          = MSS_DDR_FIC_SUBSYSTEM_LOCK_net_1;
+assign FAB_CCC_LOCK_net_1                  = FAB_CCC_LOCK_net_0;
+assign MSS_DDR_FIC_SUBSYSTEM_LOCK          = FAB_CCC_LOCK_net_1;
 assign FIC_0_CLK_net_1                     = FIC_0_CLK_net_0;
 assign FIC_0_CLK                           = FIC_0_CLK_net_1;
-assign MSS_DDR_FIC_SUBSYSTEM_LOCK_net_2    = MSS_DDR_FIC_SUBSYSTEM_LOCK_net_0;
-assign FIC_0_LOCK                          = MSS_DDR_FIC_SUBSYSTEM_LOCK_net_2;
+assign FAB_CCC_LOCK_net_2                  = FAB_CCC_LOCK_net_0;
+assign FIC_0_LOCK                          = FAB_CCC_LOCK_net_2;
 assign DDR_READY_net_1                     = DDR_READY_net_0;
 assign DDR_READY                           = DDR_READY_net_1;
 assign FAB_CCC_GL1_net_1                   = FAB_CCC_GL1_net_0;
 assign FAB_CCC_GL1                         = FAB_CCC_GL1_net_1;
-assign MSS_DDR_FIC_SUBSYSTEM_LOCK_net_3    = MSS_DDR_FIC_SUBSYSTEM_LOCK_net_0;
-assign FAB_CCC_LOCK                        = MSS_DDR_FIC_SUBSYSTEM_LOCK_net_3;
+assign FAB_CCC_LOCK_net_3                  = FAB_CCC_LOCK_net_0;
+assign FAB_CCC_LOCK                        = FAB_CCC_LOCK_net_3;
 assign MSS_READY_net_1                     = MSS_READY_net_0;
 assign MSS_READY                           = MSS_READY_net_1;
 assign MDDR_DDR_AMBA_SLAVE_HRDATA_net_0    = MDDR_DDR_AMBA_SLAVE_HRDATA;
@@ -411,7 +411,7 @@ MSS_SUBSYSTEM_sb_0_sb_CCC_0_FCCC CCC_0(
         .GL0      ( FIC_0_CLK_net_0 ),
         .GL1      ( FAB_CCC_GL1_net_0 ),
         .GL2      ( MSS_DDR_FIC_SUBSYSTEM_CLK_net_0 ),
-        .LOCK     ( MSS_DDR_FIC_SUBSYSTEM_LOCK_net_0 ) 
+        .LOCK     ( FAB_CCC_LOCK_net_0 ) 
         );
 
 //--------CoreConfigP   -   Actel:DirectCore:CoreConfigP:7.1.100
@@ -637,7 +637,7 @@ MSS_SUBSYSTEM_sb_0_sb_MSS MSS_SUBSYSTEM_sb_0_sb_MSS_0(
         // Inputs
         .MCCC_CLK_BASE             ( FIC_0_CLK_net_0 ),
         .MDDR_DQS_TMATCH_0_IN      ( MDDR_DQS_TMATCH_0_IN ),
-        .MCCC_CLK_BASE_PLL_LOCK    ( MSS_DDR_FIC_SUBSYSTEM_LOCK_net_0 ),
+        .MCCC_CLK_BASE_PLL_LOCK    ( FAB_CCC_LOCK_net_0 ),
         .MSS_RESET_N_F2M           ( CORERESETP_0_RESET_N_F2M ),
         .MDDR_DDR_CORE_RESET_N     ( CORERESETP_0_MDDR_DDR_AXI_S_CORE_RESET_N ),
         .MDDR_DDR_AHB0_S_HSEL      ( MDDR_DDR_AHB0_S_HSEL ),

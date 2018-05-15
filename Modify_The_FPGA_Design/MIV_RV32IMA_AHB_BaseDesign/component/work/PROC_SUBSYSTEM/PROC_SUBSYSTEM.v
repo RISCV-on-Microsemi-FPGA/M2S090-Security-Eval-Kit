@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Fri Nov 17 16:22:02 2017
+// Created by SmartDesign Mon Dec 11 15:28:21 2017
 // Version: v11.8 SP2 11.8.2.4
 //////////////////////////////////////////////////////////////////////
 
@@ -384,12 +384,12 @@ wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_1_7to0;
 wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_1;
 wire   [6:0]   CoreAPB3_0_APBmslave1_PADDR_5_6to0;
 wire   [6:0]   CoreAPB3_0_APBmslave1_PADDR_5;
-wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4_7to0;
-wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_2_4to2;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_2;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_3_4to2;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_3;
+wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4_7to0;
+wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4;
 wire   [4:0]   CoreAPB3_0_APBmslave1_PADDR_0_4to0;
 wire   [4:0]   CoreAPB3_0_APBmslave1_PADDR_0;
 wire   [31:8]  CoreAPB3_0_APBmslave1_PRDATA_0_31to8;
@@ -617,12 +617,12 @@ assign CoreAPB3_0_APBmslave1_PADDR_1_7to0 = CoreAPB3_0_APBmslave1_PADDR[7:0];
 assign CoreAPB3_0_APBmslave1_PADDR_1 = { CoreAPB3_0_APBmslave1_PADDR_1_7to0 };
 assign CoreAPB3_0_APBmslave1_PADDR_5_6to0 = CoreAPB3_0_APBmslave1_PADDR[6:0];
 assign CoreAPB3_0_APBmslave1_PADDR_5 = { CoreAPB3_0_APBmslave1_PADDR_5_6to0 };
-assign CoreAPB3_0_APBmslave1_PADDR_4_7to0 = CoreAPB3_0_APBmslave1_PADDR[7:0];
-assign CoreAPB3_0_APBmslave1_PADDR_4 = { CoreAPB3_0_APBmslave1_PADDR_4_7to0 };
 assign CoreAPB3_0_APBmslave1_PADDR_2_4to2 = CoreAPB3_0_APBmslave1_PADDR[4:2];
 assign CoreAPB3_0_APBmslave1_PADDR_2 = { CoreAPB3_0_APBmslave1_PADDR_2_4to2 };
 assign CoreAPB3_0_APBmslave1_PADDR_3_4to2 = CoreAPB3_0_APBmslave1_PADDR[4:2];
 assign CoreAPB3_0_APBmslave1_PADDR_3 = { CoreAPB3_0_APBmslave1_PADDR_3_4to2 };
+assign CoreAPB3_0_APBmslave1_PADDR_4_7to0 = CoreAPB3_0_APBmslave1_PADDR[7:0];
+assign CoreAPB3_0_APBmslave1_PADDR_4 = { CoreAPB3_0_APBmslave1_PADDR_4_7to0 };
 assign CoreAPB3_0_APBmslave1_PADDR_0_4to0 = CoreAPB3_0_APBmslave1_PADDR[4:0];
 assign CoreAPB3_0_APBmslave1_PADDR_0 = { CoreAPB3_0_APBmslave1_PADDR_0_4to0 };
 

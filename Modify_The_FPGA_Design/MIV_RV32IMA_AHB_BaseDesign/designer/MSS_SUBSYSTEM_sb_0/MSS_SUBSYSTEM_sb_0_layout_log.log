@@ -1,105 +1,0 @@
-INFO: Reading User SDC file C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\constraint\MSS_SUBSYSTEM_sb_0_derived_constraints.sdc.
-INFO: Reading User SDC file C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\constraint\user.sdc.
-4 warnings found.
-Check logfile C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\constraint\placer_sdc_errors.log for details.
-
-***** Place and Route Configurations *****
-Timing-driven            : ON
-Power-driven             : OFF
-High-effort              : OFF
-Repair min-delay         : ON
-Incremental              : OFF
-Inter-clock optimization : ON
-TDPR scenario            : place_and_route
-
-INFO: Reading User PDC file C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
-INFO: Reading User PDC file C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\constraint\fp\MSS_SUBSYSTEM_sb_0_derived_constraints.pdc. 0 error(s) and 0 warning(s)
-
-Running the I/O Bank and Globals Assigner.
-Info:  I/O Bank and Globals Assigner identified 72 fixed I/O macros, 0 unfixed I/O macros
-
-I/O Bank and Globals Assigner completed successfully.
-Total time spent in I/O Bank and Globals Assigner: 1 seconds
-
-Placer V4.0 - 11.8.2 
-Design: MSS_SUBSYSTEM_sb_0              Started: Thu Nov 16 11:34:57 2017
-
-Initializing Timing-Driven Placement ...
-Placing design...
-End of placement.
-Pre-Placement Runtime        : 45 seconds
-Placement Runtime            : 136 seconds
-
-Placer completed successfully.
-
-Design: MSS_SUBSYSTEM_sb_0              
-Finished: Thu Nov 16 11:38:40 2017
-Total CPU Time:     00:03:40            Total Elapsed Time: 00:03:43
-Total Memory Usage: 842.3 Mbytes
-                        o - o - o - o - o - o
-
-
-Router 
-Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0Started: Thu Nov 16 11:38:59 2017
-
-Final stats: search run time 76.845592
-
-Router completed successfully.
-
-Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0
-Finished: Thu Nov 16 11:40:56 2017
-Total CPU Time:     00:01:55            Total Elapsed Time: 00:01:57
-Total Memory Usage: 2715.2 Mbytes
-                        o - o - o - o - o - o
-
-Info: Iteration 1:
-  Total violating paths eligible for improvement: 26
-  Worst minimum delay slack: -0.597 ns
-
-Router 
-Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0Started: Thu Nov 16 11:42:10 2017
-
-Loading routing information for ECO mode...
-After loading previous routing information: Shorts = 0. Open nets = 55.
-Final stats: search run time 0.256281
-
-Router completed successfully.
-
-Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0
-Finished: Thu Nov 16 11:42:52 2017
-Total CPU Time:     00:00:40            Total Elapsed Time: 00:00:42
-Total Memory Usage: 2715.3 Mbytes
-                        o - o - o - o - o - o
-
-Info: Iteration 2:
-  Total violating paths eligible for improvement: 2
-  Worst minimum delay slack: -0.051 ns
-
-Router 
-Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0Started: Thu Nov 16 11:44:12 2017
-
-Loading routing information for ECO mode...
-After loading previous routing information: Shorts = 0. Open nets = 4.
-Final stats: search run time 0.033248
-
-Router completed successfully.
-
-Design: C:\Users\hbreslin\Desktop\Project Workspace\My projects\M2S090\M2S090\designer\MSS_SUBSYSTEM_sb_0\MSS_SUBSYSTEM_sb_0
-Finished: Thu Nov 16 11:44:54 2017
-Total CPU Time:     00:00:39            Total Elapsed Time: 00:00:42
-Total Memory Usage: 2715.4 Mbytes
-                        o - o - o - o - o - o
-
-Info: Iteration 3:
-  Total violating paths eligible for improvement: 0
-  Worst minimum delay slack: 
-Resource Usage
-+---------------+-------+-------+------------+
-| Type          | Used  | Total | Percentage |
-+---------------+-------+-------+------------+
-| 4LUT          | 13489 | 86184 | 15.65      |
-| DFF           | 6534  | 86184 | 7.58       |
-| I/O Register  | 0     | 795   | 0.00       |
-| Logic Element | 14007 | 86184 | 16.25      |
-+---------------+-------+-------+------------+
-

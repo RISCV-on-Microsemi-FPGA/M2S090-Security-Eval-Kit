@@ -1,6 +1,6 @@
 <project name="PROC_SUBSYSTEM_BaseDesign" version="1.1">
     <ProjectDirectory>
-        C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S090-Creative-Board\Programming_The_Target_Design\PROC_SUBSYSTEM_BaseDesign
+        C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign
     </ProjectDirectory>
     <View>
         ChainView
@@ -9,7 +9,7 @@
         
     </LiberoTargetDevice>
     <LogFile>
-        C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S090-Creative-Board\Programming_The_Target_Design\PROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.log
+        C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\PROC_SUBSYSTEM_BaseDesign.log
     </LogFile>
     <SerializationOption>
         Skip
@@ -81,7 +81,7 @@
             </Custom>
             <Algo type="STAPL">
                 <filename>
-                    C:\Users\hbreslin\Desktop\Project Workspace\Github\M2S090-Creative-Board\Programming_The_Target_Design\PROC_SUBSYSTEM_BaseDesign\M2S090_1.stp
+                    C:\Users\hbreslin\Desktop\M2S090-Security-Eval-Kit-master\Programming_The_Target_Device\PROC_SUBSYSTEM_BaseDesign\M2S090_1.stp
                 </filename>
                 <local>
                     projectData\M2S090_1.stp
