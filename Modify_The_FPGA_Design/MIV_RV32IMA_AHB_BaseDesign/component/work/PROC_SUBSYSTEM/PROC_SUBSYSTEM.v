@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Mon Dec 11 15:28:21 2017
-// Version: v11.8 SP2 11.8.2.4
+// Created by SmartDesign Mon Jul 30 12:12:46 2018
+// Version: v11.8 SP3 11.8.3.6
 //////////////////////////////////////////////////////////////////////
 
 `timescale 1ns / 100ps
@@ -365,56 +365,56 @@ wire   [31:0]  FIC_0_AHB_M_HRDATA_const_net_0;
 //--------------------------------------------------------------------
 // Bus Interface Nets Declarations - Unequal Pin Widths
 //--------------------------------------------------------------------
+wire           CoreAHBLite_0_AHBmslave6_HRESP;
 wire   [1:1]   CoreAHBLite_0_AHBmslave6_HRESP_0_1to1;
 wire   [0:0]   CoreAHBLite_0_AHBmslave6_HRESP_0_0to0;
 wire   [1:0]   CoreAHBLite_0_AHBmslave6_HRESP_0;
-wire           CoreAHBLite_0_AHBmslave6_HRESP;
 wire   [2:0]   CoreAHBLite_0_AHBmslave6_HSIZE;
 wire   [1:0]   CoreAHBLite_0_AHBmslave6_HSIZE_0_1to0;
 wire   [1:0]   CoreAHBLite_0_AHBmslave6_HSIZE_0;
+wire           CoreAHBLite_1_AHBmslave16_HRESP;
 wire   [1:1]   CoreAHBLite_1_AHBmslave16_HRESP_0_1to1;
 wire   [0:0]   CoreAHBLite_1_AHBmslave16_HRESP_0_0to0;
 wire   [1:0]   CoreAHBLite_1_AHBmslave16_HRESP_0;
-wire           CoreAHBLite_1_AHBmslave16_HRESP;
-wire   [2:0]   CoreAHBLite_1_AHBmslave16_HSIZE;
 wire   [1:0]   CoreAHBLite_1_AHBmslave16_HSIZE_0_1to0;
 wire   [1:0]   CoreAHBLite_1_AHBmslave16_HSIZE_0;
-wire   [31:0]  CoreAPB3_0_APBmslave1_PADDR;
+wire   [2:0]   CoreAHBLite_1_AHBmslave16_HSIZE;
 wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_1_7to0;
 wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_1;
+wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4_7to0;
+wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4;
+wire   [4:0]   CoreAPB3_0_APBmslave1_PADDR_0_4to0;
+wire   [4:0]   CoreAPB3_0_APBmslave1_PADDR_0;
 wire   [6:0]   CoreAPB3_0_APBmslave1_PADDR_5_6to0;
 wire   [6:0]   CoreAPB3_0_APBmslave1_PADDR_5;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_2_4to2;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_2;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_3_4to2;
 wire   [4:2]   CoreAPB3_0_APBmslave1_PADDR_3;
-wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4_7to0;
-wire   [7:0]   CoreAPB3_0_APBmslave1_PADDR_4;
-wire   [4:0]   CoreAPB3_0_APBmslave1_PADDR_0_4to0;
-wire   [4:0]   CoreAPB3_0_APBmslave1_PADDR_0;
+wire   [31:0]  CoreAPB3_0_APBmslave1_PADDR;
+wire   [7:0]   CoreAPB3_0_APBmslave1_PRDATA;
 wire   [31:8]  CoreAPB3_0_APBmslave1_PRDATA_0_31to8;
 wire   [7:0]   CoreAPB3_0_APBmslave1_PRDATA_0_7to0;
 wire   [31:0]  CoreAPB3_0_APBmslave1_PRDATA_0;
-wire   [7:0]   CoreAPB3_0_APBmslave1_PRDATA;
 wire   [31:0]  CoreAPB3_0_APBmslave1_PWDATA;
-wire   [7:0]   CoreAPB3_0_APBmslave1_PWDATA_1_7to0;
-wire   [7:0]   CoreAPB3_0_APBmslave1_PWDATA_1;
 wire   [7:0]   CoreAPB3_0_APBmslave1_PWDATA_0_7to0;
 wire   [7:0]   CoreAPB3_0_APBmslave1_PWDATA_0;
+wire   [7:0]   CoreAPB3_0_APBmslave1_PWDATA_1_7to0;
+wire   [7:0]   CoreAPB3_0_APBmslave1_PWDATA_1;
+wire   [7:0]   CoreAPB3_0_APBmslave6_PRDATA;
 wire   [31:8]  CoreAPB3_0_APBmslave6_PRDATA_0_31to8;
 wire   [7:0]   CoreAPB3_0_APBmslave6_PRDATA_0_7to0;
 wire   [31:0]  CoreAPB3_0_APBmslave6_PRDATA_0;
-wire   [7:0]   CoreAPB3_0_APBmslave6_PRDATA;
-wire   [1:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HRESP;
 wire   [0:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HRESP_0_0to0;
 wire           MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HRESP_0;
+wire   [1:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MEM_HRESP;
+wire   [30:0]  MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR;
 wire   [31:31] MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR_0_31to31;
 wire   [30:0]  MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR_0_30to0;
 wire   [31:0]  MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR_0;
-wire   [30:0]  MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HADDR;
-wire   [1:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP;
 wire   [0:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP_0_0to0;
 wire           MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP_0;
+wire   [1:0]   MIV_RV32IMA_L1_AHB_0_AHB_MST_MMIO_HRESP;
 //--------------------------------------------------------------------
 // Constant assignments
 //--------------------------------------------------------------------
@@ -615,25 +615,25 @@ assign CoreAHBLite_1_AHBmslave16_HSIZE_0 = { CoreAHBLite_1_AHBmslave16_HSIZE_0_1
 
 assign CoreAPB3_0_APBmslave1_PADDR_1_7to0 = CoreAPB3_0_APBmslave1_PADDR[7:0];
 assign CoreAPB3_0_APBmslave1_PADDR_1 = { CoreAPB3_0_APBmslave1_PADDR_1_7to0 };
+assign CoreAPB3_0_APBmslave1_PADDR_4_7to0 = CoreAPB3_0_APBmslave1_PADDR[7:0];
+assign CoreAPB3_0_APBmslave1_PADDR_4 = { CoreAPB3_0_APBmslave1_PADDR_4_7to0 };
+assign CoreAPB3_0_APBmslave1_PADDR_0_4to0 = CoreAPB3_0_APBmslave1_PADDR[4:0];
+assign CoreAPB3_0_APBmslave1_PADDR_0 = { CoreAPB3_0_APBmslave1_PADDR_0_4to0 };
 assign CoreAPB3_0_APBmslave1_PADDR_5_6to0 = CoreAPB3_0_APBmslave1_PADDR[6:0];
 assign CoreAPB3_0_APBmslave1_PADDR_5 = { CoreAPB3_0_APBmslave1_PADDR_5_6to0 };
 assign CoreAPB3_0_APBmslave1_PADDR_2_4to2 = CoreAPB3_0_APBmslave1_PADDR[4:2];
 assign CoreAPB3_0_APBmslave1_PADDR_2 = { CoreAPB3_0_APBmslave1_PADDR_2_4to2 };
 assign CoreAPB3_0_APBmslave1_PADDR_3_4to2 = CoreAPB3_0_APBmslave1_PADDR[4:2];
 assign CoreAPB3_0_APBmslave1_PADDR_3 = { CoreAPB3_0_APBmslave1_PADDR_3_4to2 };
-assign CoreAPB3_0_APBmslave1_PADDR_4_7to0 = CoreAPB3_0_APBmslave1_PADDR[7:0];
-assign CoreAPB3_0_APBmslave1_PADDR_4 = { CoreAPB3_0_APBmslave1_PADDR_4_7to0 };
-assign CoreAPB3_0_APBmslave1_PADDR_0_4to0 = CoreAPB3_0_APBmslave1_PADDR[4:0];
-assign CoreAPB3_0_APBmslave1_PADDR_0 = { CoreAPB3_0_APBmslave1_PADDR_0_4to0 };
 
 assign CoreAPB3_0_APBmslave1_PRDATA_0_31to8 = 24'h0;
 assign CoreAPB3_0_APBmslave1_PRDATA_0_7to0 = CoreAPB3_0_APBmslave1_PRDATA[7:0];
 assign CoreAPB3_0_APBmslave1_PRDATA_0 = { CoreAPB3_0_APBmslave1_PRDATA_0_31to8, CoreAPB3_0_APBmslave1_PRDATA_0_7to0 };
 
-assign CoreAPB3_0_APBmslave1_PWDATA_1_7to0 = CoreAPB3_0_APBmslave1_PWDATA[7:0];
-assign CoreAPB3_0_APBmslave1_PWDATA_1 = { CoreAPB3_0_APBmslave1_PWDATA_1_7to0 };
 assign CoreAPB3_0_APBmslave1_PWDATA_0_7to0 = CoreAPB3_0_APBmslave1_PWDATA[7:0];
 assign CoreAPB3_0_APBmslave1_PWDATA_0 = { CoreAPB3_0_APBmslave1_PWDATA_0_7to0 };
+assign CoreAPB3_0_APBmslave1_PWDATA_1_7to0 = CoreAPB3_0_APBmslave1_PWDATA[7:0];
+assign CoreAPB3_0_APBmslave1_PWDATA_1 = { CoreAPB3_0_APBmslave1_PWDATA_1_7to0 };
 
 assign CoreAPB3_0_APBmslave6_PRDATA_0_31to8 = 24'h0;
 assign CoreAPB3_0_APBmslave6_PRDATA_0_7to0 = CoreAPB3_0_APBmslave6_PRDATA[7:0];
